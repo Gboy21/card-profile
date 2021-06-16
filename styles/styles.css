@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    background-color:hsl(185, 75%, 39%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0px;
+}
+.content-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    top: 42%;
+    width: 32vw;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 2;
+
+}
+.image1-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 100%;
+    height: 117px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.image1{
+    border-radius: 90px 90px 90px 90px;
+    margin-top: -52px;
+    border:5px solid white;
+}
+.crest{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.london{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 12px;
+    text-align: center;
+    opacity: 0.5;
+
+}
+.number{
+    margin-left: 30px;
+}
+.num{
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+.followers{
+    opacity: 0.5;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 8px;
+    font-size:11px ;
+    margin-bottom: 15px;
+}
+.footer{
+    padding: 2px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+@media only screen and (max-width: 600px) {
+   
+    .container{
+        width: 90%;
+    }
+    body{
+        width: 100%;
+    }
+    
+  }
+  @media only screen and (max-width: 558px) {
+    .image1{
+        width: 40% ;
+        border-radius: 115px 115px 115px 115px;
+    }}
+
+    @media only screen and (max-width: 2560px) {
+        .container{
+            height: 146%;
+            margin-top: -77px;
+            font-size: 16px;
+            width: 457px;
+        }
+    .followers{
+        font-size: 15px;
+    }
+    .crest{
+        font-size: 20px;
+    }
+
+.london{
+    font-size: 20px;
+}}
+@media only screen and (max-width: 425px) {
+    .container{
+        height: 140%;
+        margin-top: -95px;
+        font-size: 16px;
+        width: 348px;
+    }
+    .image1{
+        width: 25%;
+        margin-top: -46px;
+    }
+.followers{
+    font-size: 15px;
+}
+.crest{
+    font-size: 20px;
+}
+
+.london{
+font-size: 20px;
+}}
+@media only screen and (max-width: 375px) {
+    .container{
+     width: 328px;
+    }}
+    @media only screen and (max-width: 320px) {
+        .container{
+         width: 288px;
+        }}
+        @media only screen and (max-width: 491px) {
+            .image1{
+             width: 22%;
+            }}
+            @media only screen and (max-width: 518px) {
+                .image1{
+                    width: 23%;
+                }}
+                @media only screen and (max-width: 531px) {
+                    .image1{
+                        width: 23%;
+                    }}
+                    @media only screen and (max-width: 555px) {
+                        .image1{
+                            width: 23%;
+                        }}
+                        @media only screen and (max-width: 237px) {
+                            .image1{
+                                width: 30%;
+                                margin-top: -38px;
+                            }
+                        .container{
+                            height: 445px;
+                            width: 216px;
+                        }
+                        }
